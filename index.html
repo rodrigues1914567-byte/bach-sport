@@ -3,144 +3,571 @@
 
 <head>
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <meta
+        name="description"
+        content="BACH SPORT — Camisas esportivas para quem vive a paixão pelo futebol."
+    >
+
+    <meta
+        name="theme-color"
+        content="#ff7417"
+    >
+
     <title>BACH SPORT | Camisas Esportivas</title>
+
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
+    <!-- ==============================
+         CABEÇALHO
+         ============================== -->
+
     <header>
+
         <div>
-            <span>BACH SPORT</span>
+
+            <a href="#" aria-label="BACH SPORT - Página inicial">
+                <span>BACH SPORT</span>
+            </a>
+
         </div>
 
-        <nav>
-            <a href="#">Início</a>
-            <a href="#">Camisas</a>
-            <a href="#">Categorias</a>
-            <a href="#">Como funciona</a>
+
+        <nav aria-label="Navegação principal">
+
+            <ul>
+
+                <li>
+                    <a href="#">
+                        Início
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#camisas">
+                        Camisas
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#categorias">
+                        Categorias
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#como-funciona">
+                        Como funciona
+                    </a>
+                </li>
+
+            </ul>
+
         </nav>
 
-        <button>
-            Comprar
-        </button>
+
+        <div>
+
+            <a href="#camisas">
+                Comprar
+            </a>
+
+        </div>
+
     </header>
 
 
+    <!-- ==============================
+         CONTEÚDO PRINCIPAL
+         ============================== -->
+
     <main>
 
-        <section>
-            <span>BACH SPORT</span>
 
-            <h1>
-                Vista a camisa.<br>
-                Viva o futebol.
-            </h1>
+        <!-- ==============================
+             HERO
+             ============================== -->
 
-            <p>
-                Camisas esportivas para quem vive a paixão pelo futebol.
-            </p>
-
-            <a href="#">
-                Ver camisas
-            </a>
-        </section>
-
-
-        <section>
-
-            <h2>
-                Encontre sua camisa
-            </h2>
-
-            <div>
-                <article>
-                    <h3>Clubes Brasileiros</h3>
-                </article>
-
-                <article>
-                    <h3>Clubes Internacionais</h3>
-                </article>
-
-                <article>
-                    <h3>Seleções</h3>
-                </article>
-
-                <article>
-                    <h3>Camisas Retrô</h3>
-                </article>
-            </div>
-
-        </section>
-
-
-        <section>
-
-            <h2>
-                Destaques
-            </h2>
+        <section aria-labelledby="hero-title">
 
             <div>
 
-                <article>
-                    <h3>Camisa Premium</h3>
-                    <p>Por encomenda</p>
-                    <strong>R$ 180,00</strong>
-                </article>
+                <span>
+                    BACH SPORT
+                </span>
 
-                <article>
-                    <h3>Camisa Internacional</h3>
-                    <p>Por encomenda</p>
-                    <strong>R$ 180,00</strong>
-                </article>
+                <h1 id="hero-title">
+                    Vista a camisa.<br>
+                    Viva o futebol.
+                </h1>
 
-                <article>
-                    <h3>Camisa Retrô</h3>
-                    <p>Por encomenda</p>
-                    <strong>R$ 180,00</strong>
-                </article>
+                <p>
+                    Camisas esportivas para quem vive a paixão pelo futebol.
+                </p>
+
+                <a href="#camisas">
+                    Ver camisas
+                </a>
 
             </div>
 
         </section>
 
 
-        <section>
+        <!-- ==============================
+             CATEGORIAS
+             ============================== -->
 
-            <h2>
-                Como funciona?
-            </h2>
+        <section
+            id="categorias"
+            aria-labelledby="categorias-title"
+        >
+
+            <div>
+
+                <span>
+                    EXPLORE
+                </span>
+
+                <h2 id="categorias-title">
+                    Encontre sua camisa
+                </h2>
+
+                <p>
+                    Escolha entre clubes brasileiros, internacionais,
+                    seleções e modelos retrô.
+                </p>
+
+            </div>
+
+
+            <div>
+
+
+                <article>
+
+                    <a href="#camisas" aria-label="Ver camisas de clubes brasileiros">
+
+                        <span>
+                            01
+                        </span>
+
+                        <h3>
+                            Clubes Brasileiros
+                        </h3>
+
+                        <p>
+                            Vista as cores do seu time.
+                        </p>
+
+                    </a>
+
+                </article>
+
+
+                <article>
+
+                    <a href="#camisas" aria-label="Ver camisas de clubes internacionais">
+
+                        <span>
+                            02
+                        </span>
+
+                        <h3>
+                            Clubes Internacionais
+                        </h3>
+
+                        <p>
+                            Grandes clubes do futebol mundial.
+                        </p>
+
+                    </a>
+
+                </article>
+
+
+                <article>
+
+                    <a href="#camisas" aria-label="Ver camisas de seleções">
+
+                        <span>
+                            03
+                        </span>
+
+                        <h3>
+                            Seleções
+                        </h3>
+
+                        <p>
+                            Camisas para representar seu país.
+                        </p>
+
+                    </a>
+
+                </article>
+
+
+                <article>
+
+                    <a href="#camisas" aria-label="Ver camisas retrô">
+
+                        <span>
+                            04
+                        </span>
+
+                        <h3>
+                            Camisas Retrô
+                        </h3>
+
+                        <p>
+                            História e futebol em uma só camisa.
+                        </p>
+
+                    </a>
+
+                </article>
+
+
+            </div>
+
+        </section>
+
+
+        <!-- ==============================
+             PRODUTOS EM DESTAQUE
+             ============================== -->
+
+        <section
+            id="camisas"
+            aria-labelledby="destaques-title"
+        >
+
+            <div>
+
+                <span>
+                    DESTAQUES
+                </span>
+
+                <h2 id="destaques-title">
+                    Camisas em destaque
+                </h2>
+
+                <p>
+                    Alguns dos modelos disponíveis na BACH SPORT.
+                </p>
+
+            </div>
+
+
+            <div>
+
+
+                <article>
+
+                    <div>
+                        <span>
+                            POR ENCOMENDA
+                        </span>
+                    </div>
+
+                    <div>
+
+                        <h3>
+                            Camisa Premium
+                        </h3>
+
+                        <p>
+                            Modelo premium
+                        </p>
+
+                        <strong>
+                            R$ 180,00
+                        </strong>
+
+                        <a href="#">
+                            Ver camisa
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <article>
+
+                    <div>
+                        <span>
+                            POR ENCOMENDA
+                        </span>
+                    </div>
+
+                    <div>
+
+                        <h3>
+                            Camisa Internacional
+                        </h3>
+
+                        <p>
+                            Clubes internacionais
+                        </p>
+
+                        <strong>
+                            R$ 180,00
+                        </strong>
+
+                        <a href="#">
+                            Ver camisa
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <article>
+
+                    <div>
+                        <span>
+                            POR ENCOMENDA
+                        </span>
+                    </div>
+
+                    <div>
+
+                        <h3>
+                            Camisa Retrô
+                        </h3>
+
+                        <p>
+                            Modelos clássicos
+                        </p>
+
+                        <strong>
+                            R$ 180,00
+                        </strong>
+
+                        <a href="#">
+                            Ver camisa
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+            </div>
+
+        </section>
+
+
+        <!-- ==============================
+             COMO FUNCIONA
+             ============================== -->
+
+        <section
+            id="como-funciona"
+            aria-labelledby="como-funciona-title"
+        >
+
+            <div>
+
+                <span>
+                    SIMPLES E TRANSPARENTE
+                </span>
+
+                <h2 id="como-funciona-title">
+                    Como funciona?
+                </h2>
+
+                <p>
+                    Comprar sua camisa na BACH SPORT é simples.
+                    Você escolhe o modelo, faz a encomenda e acompanha
+                    o processo até receber sua camisa.
+                </p>
+
+            </div>
+
 
             <ol>
-                <li>Escolha sua camisa</li>
-                <li>Faça sua encomenda</li>
-                <li>Aguarde o prazo estimado</li>
-                <li>Receba sua camisa</li>
+
+                <li>
+
+                    <span>
+                        01
+                    </span>
+
+                    <div>
+
+                        <h3>
+                            Escolha sua camisa
+                        </h3>
+
+                        <p>
+                            Encontre o modelo, clube ou seleção que você procura.
+                        </p>
+
+                    </div>
+
+                </li>
+
+
+                <li>
+
+                    <span>
+                        02
+                    </span>
+
+                    <div>
+
+                        <h3>
+                            Faça sua encomenda
+                        </h3>
+
+                        <p>
+                            Entre em contato e confirme os detalhes do pedido.
+                        </p>
+
+                    </div>
+
+                </li>
+
+
+                <li>
+
+                    <span>
+                        03
+                    </span>
+
+                    <div>
+
+                        <h3>
+                            Aguarde o prazo
+                        </h3>
+
+                        <p>
+                            Como trabalhamos com encomendas, o prazo estimado
+                            é de 15 a 35 dias.
+                        </p>
+
+                    </div>
+
+                </li>
+
+
+                <li>
+
+                    <span>
+                        04
+                    </span>
+
+                    <div>
+
+                        <h3>
+                            Receba sua camisa
+                        </h3>
+
+                        <p>
+                            Sua camisa chega até você para vestir sua paixão
+                            pelo futebol.
+                        </p>
+
+                    </div>
+
+                </li>
+
             </ol>
 
-            <p>
-                Prazo estimado de 15 a 35 dias para produtos por encomenda.
-            </p>
+
+            <div>
+
+                <strong>
+                    Prazo estimado: 15 a 35 dias
+                </strong>
+
+                <p>
+                    Produtos disponíveis por encomenda possuem prazo
+                    estimado de 15 a 35 dias.
+                </p>
+
+            </div>
 
         </section>
+
 
     </main>
 
 
+    <!-- ==============================
+         RODAPÉ
+         ============================== -->
+
     <footer>
 
-        <strong>BACH SPORT</strong>
+        <div>
 
-        <p>
-            Camisas esportivas para quem vive o futebol.
-        </p>
+            <a href="#" aria-label="BACH SPORT - Página inicial">
+                BACH SPORT
+            </a>
 
-        <p>
-            © 2026 BACH SPORT
-        </p>
+            <p>
+                Camisas esportivas para quem vive o futebol.
+            </p>
+
+        </div>
+
+
+        <div>
+
+            <nav aria-label="Navegação do rodapé">
+
+                <ul>
+
+                    <li>
+                        <a href="#">
+                            Início
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#camisas">
+                            Camisas
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#categorias">
+                            Categorias
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#como-funciona">
+                            Como funciona
+                        </a>
+                    </li>
+
+                </ul>
+
+            </nav>
+
+        </div>
+
+
+        <div>
+
+            <p>
+                © 2026 BACH SPORT
+            </p>
+
+        </div>
 
     </footer>
+
 
 </body>
 
